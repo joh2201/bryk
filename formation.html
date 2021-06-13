@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>lfi</title>
+  <!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css"
+  rel="stylesheet"
+/>
+</head>
+<body>
+<header>
+  <!-- Intro settings -->
+  <style>
+    /* Default height for small devices */
+    #intro-example {
+      height: 400px;
+    }
+
+    /* Height for devices larger than 992px */
+    @media (min-width: 992px) {
+      #intro-example {
+        height: 600px;
+      }
+    }
+  </style>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarExample01"
+        aria-controls="navbarExample01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarExample01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="accueil.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aproposdenous.html">A propos de nous</a>
+          </li>
+          <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Centre d'interet
+          </a>
+          <!-- Dropdown menu -->
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+              <a class="dropdown-item" href="foireauxquestions.html">FAQ</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="thematique.html">Thematique</a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="formation.html">Formations</a>
+            </li>
+          </ul>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Compte.html">Compte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <!-- Navbar dropdown -->
+        
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!-- Background image -->
+  <div
+    id="intro-example"
+    class="p-5 text-center bg-image"
+    style="background-image: url('image/tina.jpg');"
+  >
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">Nos formations</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Background image -->
+</header>
+
+<div class="container">
+  <!-- Content here -->
+  <div class="row gy-5"  style="margin-top: 20px">
+    <div class="col-md-4">
+      <div class="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/uCvTP2eQ-60"
+            title="mes regles"
+            allowfullscreen
+          ></iframe>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="https://www.youtube.com/embed/e-J_Ga6-23g"
+          title="reussir ma vie scolaire"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="https://www.youtube.com/embed/9pYPKJCbY_w"
+          title="parler a mes parents"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div> 
+  </div>
+
+  <!-- Content here -->
+  <div class="row gy-5 " style="margin-top: 2px">
+    <div class="col-md-4">
+      <div class="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/uCvTP2eQ-60"
+            title="mes regles"
+            allowfullscreen
+          ></iframe>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="https://www.youtube.com/embed/e-J_Ga6-23g"
+          title="reussir ma vie scolaire"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="https://www.youtube.com/embed/9pYPKJCbY_w"
+          title="parler a mes parents"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div> 
+  </div>
+
+<nav aria-label="...">
+  <ul class="pagination pagination-circle justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active" aria-current="page">
+      <a class="page-link" href="#">2 <span class="visually-hidden">(current)</span></a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+</div>
+
+
+
+
+  <!-- MDB -->
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Inscription a notre newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example2" class="form-control" />
+              <label class="form-label" for="form5Example2">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              souscrire
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        les filles s'interrogent est une plateforme qui permet aux filles d'avoir les reponses aux questions qu'elles se posent sur la vie scolaire , social , familiale et leurs physiques.
+      </p>
+    </section>
+    <!-- Section: Text -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"
+></script>
+</body>
+</html>
